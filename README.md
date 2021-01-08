@@ -1,3 +1,3 @@
 # lucid
-# One Page Website.
+# One Page Website
 https://abrarbd.github.io/lucid/
