@@ -8,6 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- FakeLoader CSS -->
+    <link href="css/fakeLoader.min.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
     <script src="https://kit.fontawesome.com/294e830a7f.js" crossorigin="anonymous"></script>
     <!-- owl carousel CSS -->
@@ -19,6 +21,7 @@
    
   </head>
   <body>
+    <div class="fakeLoader"></div>
     <!-- Header Start -->
    <header class="header-section">
     <!-- Menu Section start -->
@@ -83,7 +86,7 @@
       </div>
      </div>
     <!-- Banner section end -->
-
+    <div id="particles-js" class="particles"></div>
    </header>
     <!-- Header End -->
     <!-- Feataure section start -->
@@ -522,9 +525,25 @@
     <script src="js/jquery-2.2.4.min.js"></script>
     <!-- owl carousel js -->
     <script src="js/owl.carousel.min.js"></script>
+    <!-- FakeLoader JS -->
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="js/fakeLoader.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/lib/stats.js"></script>
     <!-- Custom Script -->
     <script src="js/script.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function () {
+                $.fakeLoader({
+                    bgColor: '#000',
+                    spinner: 'spinner3',
+                    timeToHide:5000,
+                });
+            });
 
+    </script>
     
   </body>
 </html>
