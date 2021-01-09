@@ -52,7 +52,11 @@ li{
 	height:100%;
 }
 /* Menu CSS Start*/
-.main-menu{}
+.main-menu{
+	width:100%;
+	position: relative;
+	z-index: 1;
+}
 .main-menu .navbar-light .navbar-brand {
 	color: #fff;
 }
@@ -104,6 +108,8 @@ li{
 
 .btn{
 	padding: 30px 0;
+	position: relative;
+	z-index: 1;
 }
 .btn ul{
 	display: flex;
